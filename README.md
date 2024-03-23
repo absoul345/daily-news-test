@@ -8,7 +8,7 @@ This project is divided into Frontend and Backend sections.
 
 CRUD Operations: Create, Read, Update, and Delete operations are implemented.
 Administrator Authorization: Authentication for administrators is included.
-Private Routes: Routes with restricted access are implemented for authenticated users.
+Private Routes: Routes with restricted access
 Collection Display: News collections are displayed with search and sorting functionalities.
 
 ### Running the Frontend
