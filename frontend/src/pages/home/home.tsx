@@ -3,8 +3,10 @@ import SearchBar from '../../components/search-bar/search-bar';
 import Layout from '../../components/layout/layout';
 import SortButton from '../../components/sort-buttons/sort-buttons';
 import ArticlesCollection from '../../components/articles-collection/articles-collection';
-import { ITEMS_PER_PAGE } from '../../constants/common.constats';
 import Pagination from '../../components/pagination/pagination';
+
+import { ITEMS_PER_PAGE } from '../../constants/common.constats';
+
 import { useArticleState } from '../../hooks/article-collection.hook';
 
 const Home: React.FC = () => {
@@ -22,7 +24,7 @@ const Home: React.FC = () => {
     <>
       <NavigationBar />
       <Layout>
-        <div className="mb-20 flex flex-row items-center justify-center">
+        <div className="mb-20 flex flex-row items-center justify-between">
           <SearchBar setQuery={setQuery} query={query} />
           <SortButton setActiveOption={setActiveOption} />
         </div>

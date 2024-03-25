@@ -11,9 +11,12 @@ interface IProp {
 const ArticlesCollection: React.FC<IProp> = ({ filteredArticles }) => {
   return (
     <Suspense fallback={<p>Loading.....</p>}>
-      <div className="grid grid-cols-4 gap-10">
+      <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {filteredArticles?.map((article: any) => (
-          <ul key={article._id} className="border h-128 border-gray-300">
+          <ul
+            key={article._id}
+            className="border w-25 px-7 h-[35rem] sm:h-[35rem] sm:px-28 md:px-5 lg:px-0 lg:h-128 border-gray-300"
+          >
             <ArticleMarkUp article={article} />
           </ul>
         ))}
