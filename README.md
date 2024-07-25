@@ -30,7 +30,7 @@ The API documentation is available on [OpenAPI Swagger](https://app.swaggerhub.c
 
 ### Running the Backend
 
-To run the backend, execute the following commands:
+To run backend, execute the following commands:
 
 For production
 
