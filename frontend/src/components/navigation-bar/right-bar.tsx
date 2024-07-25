@@ -1,5 +1,6 @@
-import { PATHS_URL } from '../../constants/paths-url.constants';
 import { NavLink } from 'react-router-dom';
+
+import { PATHS_URL } from '../../constants/paths-url.constants';
 
 import { ICredentials } from '../../services/admin/admin.types';
 

@@ -10,7 +10,7 @@ import authRoute from './routes/auth';
 
 import { sendResponse } from './helpers/send-response';
 import { addArticlesDB } from './utils/rss-parser';
-import { IErrorResponse } from './types/types';
+import { IErrorResponse } from './constants/types/types';
 
 import { COLLECTION_NAME } from './constants/db-constants';
 import { STATUS, STATUS_MESSAGE } from './constants/error-constants';

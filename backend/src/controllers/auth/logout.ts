@@ -4,7 +4,7 @@ import { Admin } from '../../models/admin';
 
 import { sendResponse } from '../../helpers/send-response';
 
-import { IRequest } from '../../types/express';
+import { IRequest } from '../../constants/types/express';
 import { STATUS, STATUS_MESSAGE } from '../../constants/error-constants';
 
 export const logout = async (req: IRequest, res: Response): Promise<void> => {

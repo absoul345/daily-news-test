@@ -44,3 +44,17 @@ For development
 ```bash
 npm run dev
 ```
+
+### Docker
+
+Start Docker Compose
+
+```bash
+docker compose up -d
+```
+
+Stop Docker Compose
+
+```bash
+docker compose down
+```

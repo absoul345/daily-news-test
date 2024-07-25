@@ -5,7 +5,7 @@ import { Articles } from '../../models/news-articles';
 
 import { sendResponse } from '../../helpers/send-response';
 
-import { INewsArticle } from '../../types/types';
+import { INewsArticle } from '../../constants/types/types';
 import { STATUS, STATUS_MESSAGE } from '../../constants/error-constants';
 
 export const add = async (req: Request, res: Response): Promise<void> => {

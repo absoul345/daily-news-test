@@ -1,12 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from '../pages/home/home';
-import Error from './error/error';
-import Auth from '../pages/auth/auth';
 import AdminPanel from '../pages/admin-panel/admin-panel';
-import ProtectedRoute from '../utils/privat-route';
+import Error from '../pages/error/error';
+import Auth from '../pages/auth/auth';
+
 import CreateArticle from '../pages/create-article/create-article';
 import ArticleUpdate from '../pages/article-update/article-update';
+
+import ProtectedRoute from '../utils/privat-route';
+
 import { PATHS_URL } from '../constants/paths-url.constants';
 
 function App() {

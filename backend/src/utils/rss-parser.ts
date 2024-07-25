@@ -4,7 +4,7 @@ import { ObjectId } from 'mongodb';
 import { Articles } from '../models/news-articles';
 
 import { BBC_FEED_URL } from '../constants/url-constants';
-import { INewsArticle } from '../types/types';
+import { INewsArticle } from '../constants/types/types';
 
 const parser: Parser<any, any> = new Parser({
   customFields: {
